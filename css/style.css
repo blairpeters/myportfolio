@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+#name h1{
+    font-family: "Tiny5", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+body{
+    background-color: rgb(253, 243, 246);
+}
+#name{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+#name p{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.navbar{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    background-color: rgb(253, 203, 242);
+   
+}
+.navbar li{
+    display: inline;
+}
+.navbar li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a :hover{
+    background-color: blue;
+}
+.career h2{
+    text-align: center;
+}
+.career p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+img{
+    height: auto;
+    width: 40%;
+}
+.heyy-im-blair p{
+    text-align: center;
+    display: flex;
+    
+}
+.heyy-im-blair h1,a{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+#heyy{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
