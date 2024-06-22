@@ -115,7 +115,7 @@ section{
     width: 1030px; 
     height: auto; 
     gap: 30px;  
-    border-radius: 15px;
+    border-radius: 25px;
     
 }
 #wrapper img{
@@ -141,7 +141,7 @@ button{
     color: rgb(58, 165, 201);
 }
 .footer{
-    background-image: url('pics/8.jpg');
+    background-image: url('https://plus.unsplash.com/premium_photo-1682309667112-971fb0622b55?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29udGFjdHMlMjBmb3JtfGVufDB8fDB8fHww');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -154,6 +154,15 @@ button{
     flex-direction: row;
     justify-content: center;
 }
+.footer hr{
+   border: none; 
+   width: 120px;
+   height: 5px;
+   background-color: pink;
+   border-radius: 10px;
+   margin-bottom: 20px;
+
+}
 .footer-section{
     display: flex;
     flex-direction: column;
@@ -162,7 +171,31 @@ margin: 20px auto;
 border: 2px solid black;
 padding: 20px;
 max-width: 600px;
+gap: 20px;
 }
 label{
     margin-bottom: 5px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: blue;
+    border-radius: 50px;
+}
+.footer textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.submit{
+    height: 25px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: brown;
 }
